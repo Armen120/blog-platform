@@ -17,35 +17,49 @@ This project is a basic blog platform backend implemented in Node.js using Expre
 - Input validation and error handling
 
 ## Structure
-project-root
-|-- controllers
-|   |-- blogController.js
-|   |-- commentController.js
-|   |-- userController.js
-|-- exeptions
-|   |-- apiError.js
-|-- models
-|   |-- blogModel.js
-|   |-- commentModel.js
-|   |-- userModel.js
-|-- routes
-|   |-- router.js
-|-- middlewares
-|   |-- authMiddleware.js
-|   |-- errorMiddleware.js
-|   |-- validation.js
-|-- service
-|   |-- blogService.js
-|   |-- commentService.js
-|   |-- tokenService.js
-|   |-- userService.js
-|-- .env.example
-|-- documentation.js
-|-- index.js
-|-- package-lock.json
-|-- package.json
-|-- README.md
-|-- swagger.js
+- **project-root:** 
+  - **controllers:** 
+    - `blogController.js`
+    - `commentController.js`
+    - `userController.js`
+
+  - **exceptions:** 
+    - `apiError.js`
+
+  - **models:** 
+    - `blogModel.js`
+    - `commentModel.js`
+    - `userModel.js`
+
+  - **routes:** 
+    - `router.js`
+
+  - **middlewares:** 
+    - `authMiddleware.js`
+    - `errorMiddleware.js`
+    - `validation.js`
+
+  - **service:** 
+    - `blogService.js`
+    - `commentService.js`
+    - `tokenService.js`
+    - `userService.js`
+
+  - **.env.example:** 
+
+  - **documentation.js:** 
+
+  - **index.js:** 
+
+  - **package-lock.json:** 
+
+  - **package.json:** 
+
+  - **README.md:** 
+
+  - **swagger.js:** 
+
+
  
 
 ## Technologies
